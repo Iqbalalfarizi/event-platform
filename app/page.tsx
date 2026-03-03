@@ -1,9 +1,11 @@
 import EventCard from "../components/EventCard";
 import ExploreButton from "../components/ExploreButton";
+import HomepageTracker from "../components/HomepageTracker";
 import { events } from "../lib/constants";
 const Page = () => {
   return (
     <section>
+      <HomepageTracker />
       <h1 className="text-center">
         The Hub for Every Day <br /> Event You Cant Miss
       </h1>
